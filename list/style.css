@@ -1,0 +1,46 @@
+.cars{
+    list-style-type: none;
+    list-style-position: inside;
+
+}
+
+
+.vege{
+    list-style-type: square;
+    
+}
+
+
+ul{
+    background: #3399ff;
+    padding: 20px;
+    
+    
+    
+}
+
+
+ol{
+    background: #ff9999;
+    padding: 20px;
+}
+.cars li{
+    background: #ffe5e5;
+     margin-left: 5px;
+     padding: 5px;
+}
+
+.vege li{
+    background: #cce5ff;
+    margin: 5px;
+   
+}
+
+.cars li::before{
+    content: '';
+    display: inline-block;
+    background-image: url('arrow.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}

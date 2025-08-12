@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Insta profile Card</title>
+    <style>
+        *{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #header{
+            position: relative;
+        }
+        #username{
+            position: absolute;
+            top: 0%;
+            left: 40%;
+        }
+        #chev{
+            position: absolute;
+        }
+
+        .center{
+            display: flex;
+            position: absolute;
+            top: 15%;
+            align-items: center;
+
+        }
+
+        .about{
+            position: absolute;
+            top: 35%;
+        }
+        img{
+            border-radius: 1000px;
+            margin: 10px 20px;
+            clip-path: circle();
+        }
+
+        p{
+            margin: 20px;
+            text-align: center;
+        }
+
+        pre{
+            position: absolute;
+            top: 35px;
+        }
+        button{
+            margin-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="header">
+       <h1 id="chev"><i class="bi bi-chevron-left"></i></h1> <h1 id="username">Olapam</h1>
+    </div>
+    
+    <div class="center">
+        <img src="me.jpg" alt="myself" width="100px">
+        <p>0<br>posts</p> <p>122<br>followers</p> <p>38<br> following</p>
+    </div>
+    <div class="about">
+        <h2>Olapam</h2>
+<pre>
+Web Developer, 
+Cybersecurity student
+</pre>
+
+<button class="edit">Edit Profile</button> <button>Share Profile</button>
+    </div>
+
+</body>
+</html>
